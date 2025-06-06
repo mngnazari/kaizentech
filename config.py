@@ -2,8 +2,17 @@
 BOT_TOKEN = "7943645778:AAEXYzDKUc2D7mWaTcLrSkH4AjlJvVq7PaU"
 
 # شناسه ادمین اصلی (عدد)
-ADMIN_ID = 2138687434
+
+ADMIN = {
+    "id": 2138687434,       # آیدی عددی ادمین
+    "name": "نام ادمین"    # نام ادمین
+}
 
 # شناسه نیروها (لیست اعداد)
-STAFF_IDS  = [93543315]
+
+STAFFS = [
+    {"id": 93543315, "name": "مهدی نظری"},
+    {"id": 7786882764, "name": "کایزن"},
+
+]
 DB_PATH = "sqlite:///users.db"

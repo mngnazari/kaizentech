@@ -1,13 +1,8 @@
 from telegram import ReplyKeyboardMarkup
 
-ADMIN_KEYBOARD = ReplyKeyboardMarkup(
-    [["کیوبدرادمین"]],
-    resize_keyboard=True,
-    is_persistent=True  # پارامتر اصلاح شده
-)
-
+# فقط کیبورد نیروها باقی می‌ماند
 STAFF_KEYBOARD = ReplyKeyboardMarkup(
     [["کیوبرد نیرو"]],
     resize_keyboard=True,
-    is_persistent=True  # پارامتر اصلاح شده
+    is_persistent=True
 )
